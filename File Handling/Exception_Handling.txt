@@ -1,0 +1,42 @@
+// Exception Handling
+
+Q1. What is Exception and why use it?
+_________________________________________________________________
+Exception is an event which is occure in program run time. 
+And which is responsible for to distrub the normal flow of program.
+
+Q2. Explain hierarchy of Exception handling?
+_____________________________________________________________________
+Throwable : this is parent of All Exceptio.
+Exception: this is child of Thorwable and parent.
+1)Checked Exception:Checked Exception are occure at Program Compile time.
+2)Unchecked Exception: Unchecked Exception is occure at program run time.
+3)error: The Error is not handle by Programmer.
+
+Q4. Explain all keywords of exception handling with example?
+_____________________________________________________________________________
+1)try: try block are use for to write the code which is generate the Exception.
+Means Suppose One Program gives the Exception the those block of code we write in try block.
+2)catch:Catch block are responsible for to catch the Exception. 
+means try block gives the exception and catch block show the exception which occure in which block.
+3)finally: Finally block are execute occure or not. 
+means exeption occure finally block execute and exception not occure finally block execute.
+4)throws: Throws keyword are responsible for to handle the unchecked exception. 
+we can handle the unchecked exception withou try and catch keyword using throws keyword.
+5)throw: throw keyword are responsible for to create the userdefined exception. 
+means suppose programmer create one voting appilication the he write the logic the user 
+are 18 above the he enter into the registration panel. 
+but java we not provide the this type of exception the user write his own exception with thw help of throw keyword.
+
+Q5. Explain the difference between finally and catch?
+______________________________________________________________________________________
+finally block execute the exception are occure or not but catch block are execute when the exception are occure.
+finally bolock are use to write the code which run compulsory in program means 
+database close logics are manadatory to close in program the exception are occure or not. 
+But Catch block are use only to the Exception.
+
+Q6. Explain the difference between throw and throws?
+______________________________________________________________________________________
+throw keyword are use for to create and the user defined exception.
+And Throws Keyword are use for to handle the unchecked exception.
+

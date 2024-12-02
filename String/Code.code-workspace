@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "C:/xampp/htdocs/Project/Code"
+		},
+		{
+			"path": "../../../bootstrap"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bootstrap"
+	}
+}

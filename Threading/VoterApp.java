@@ -1,0 +1,6 @@
+// Example 
+
+public class VoterApp
+{
+
+}
